@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <div class="jumbotron">
+    <h1 class="display-4">Mikaela's Website</h1>
+    <p>Welcome to my website! To find out more about who I am, please visit my <a href="{% url 'about' %}">about</a> page :)</p>
+
+  </div>
+  <em><h2>Some Pretty Colors</h2></em>
+
+  <table class="mytable">
+    <tr>
+      <td id='first'></td>
+      <td id='second'></td>
+      <td id='third'></td>
+      <td id='fourth'></td>
+      <td id='fifth'></td>
+    </tr>
+  </table>
+</div>
+
+{% endblock %}

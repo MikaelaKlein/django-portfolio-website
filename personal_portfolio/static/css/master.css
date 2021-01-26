@@ -1,0 +1,34 @@
+h2{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.mytable{
+  margin:auto;
+}
+
+td{
+  border: 6px solid white;
+  height: 400px;
+  padding: 100px;
+}
+
+#first{
+  background-color: #6930C3;
+}
+
+#second{
+  background-color: #5390D9;
+}
+
+#third{
+  background-color: #48BFE3;
+}
+
+#fourth{
+  background-color: #64DFDF;
+}
+
+#fifth{
+  background-color: #80FFDB;
+}
