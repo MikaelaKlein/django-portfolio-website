@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 
 <div class="container">
@@ -6,12 +7,67 @@
     <div class="col-md-8">
       <br>
       <h3>Hi, I'm Mikaela Klein!</h3>
+      <br>
 
-      <p>[Insert cute pic of me here <3]</p>
+      <p>
+        Welcome to my website! This is my first time building a website, so
+        please forgive me if it looks like crap &#128513; It is built using
+        <a href="https://www.djangoproject.com/">Django</a>
+        and hosted with <a href="https://www.pythonanywhere.com/">pythonanywhere</a>.
+      </p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="{% static 'profile_pic.jpg' %}" style="width:300px;height:450px;" class='image'/>
+      <br>
+      <p>
+        I made this website because I want to develop more skills as an engineer
+        outside of what I'm currently doing at work.
+      </p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        For some background on why I did this, I was recently promoted to become
+        a Data Engineer at Postmates from a Product Analyst position, mostly
+        because of my knowledge of Airflow and Python. After starting in the
+        role, I was starting to become frustrated with my lack of knowledge of
+        well, <em>everything</em>, especially software engineering in the
+        typical sense which normally includes web or application development.
+        Even though I wasn't directly working on it, our main codebase at
+        Postmates was written in Django so I decided to take a course on Udemy
+        to teach me about Django and how it works.
+      </p>
+
+      <p>
+        And now, 32 hours of learning later, here I am putting my skills to use!
+        I thought creating this website would be a good way to show off my new
+        skills and also write some blog posts of other things I'm also
+        interested in because why not :).
+      </p>
+
+      <p>
+        A bit about myself, I'm currently a Data Engineer at Uber (recently
+        acquired by Postmates).
+      </p>
+
+      <div class="page-content page-container" id="page-content">
+      <div class="padding">
+          <div class="row container d-flex justify-content-center">
+              <div class="col-md-6 grid-margin stretch-card">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title">social media icons footer</h4>
+                          <p class="card-description">social media icons buttons footer</p>
+                          <div class="template-demo"> <button type="button" class="btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button> <button type="button" class="btn btn-social-icon btn-outline-youtube"><i class="fa fa-youtube"></i></button> <button type="button" class="btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button> <button type="button" class="btn btn-social-icon btn-outline-dribbble"><i class="fa fa-dribbble"></i></button> <button type="button" class="btn btn-social-icon btn-outline-linkedin"><i class="fa fa-linkedin"></i></button> <button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fa fa-instagram"></i></button> </div>
+                          <div class="template-demo"> <button type="button" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></button> <button type="button" class="btn btn-social-icon btn-youtube"><i class="fa fa-youtube"></i></button> <button type="button" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></button> <button type="button" class="btn btn-social-icon btn-dribbble"><i class="fa fa-dribbble"></i></button> <button type="button" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></button> <button type="button" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></button> </div>
+                          <div class="template-demo"> <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fa fa-facebook"></i></button> <button type="button" class="btn btn-social-icon btn-youtube btn-rounded"><i class="fa fa-youtube"></i></button> <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></button> <button type="button" class="btn btn-social-icon btn-dribbble btn-rounded"><i class="fa fa-dribbble"></i></button> <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded"><i class="fa fa-linkedin"></i></button> <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i class="fa fa-instagram"></i></button> </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
 
     </div>
 </div>
